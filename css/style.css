@@ -1,0 +1,217 @@
+@import url(font-awesome.min.css);
+
+@font-face {
+  font-family: font_test;
+  src: url(../fonts/Source_Code_Pro/SourceCodePro-VariableFont_wght.ttf);
+}
+* {
+  margin: 0;
+}
+body {
+  font-family: font_test;
+  color: #444;
+}
+a {
+  text-decoration: none;
+  color: rgb(216, 214, 214);
+}
+
+.logo {
+  padding: 30px 0 0 0;
+  display: inline-block;
+}
+
+.nav {
+  display: inline;
+  text-align: right;
+}
+
+.nav ul li {
+  display: inline;
+  padding: 0 0 0 15px;
+}
+
+.nav ul li a:hover {
+  color: #fff;
+}
+
+.nav ul li a {
+  color: rgb(122, 116, 116);
+  transition: color 0.15s ease-in-out;
+}
+
+.nav ul {
+  float: right;
+  display: inline;
+  padding: 30px 0 0px 0;
+}
+
+.header {
+  background-image: url(../img/dark_tint.png),
+    url(../img/bokeh_car_lights_bg.jpg);
+}
+
+.top-menu {
+  display: inline;
+  padding-top: 20px;
+}
+
+.btn {
+  padding: 10px 15px;
+  border-radius: 30px;
+  border-width: 0px;
+  border-color: black;
+  cursor: pointer;
+  font-size: 1.5vw;
+  text-align: center;
+  color: #fff;
+}
+
+.btn-gray {
+  background-color: #fff;
+  color: #555 !important;
+}
+
+.btn-big {
+  font-size: 2.4vw;
+}
+
+.btn-blue {
+  background-color: aqua;
+  color: #fff;
+}
+
+.btn-dark {
+  background-color: #444;
+  color: #fff !important;
+}
+
+.banner-content {
+  text-align: center;
+  color: #fff;
+  padding: 139px 0;
+}
+
+.banner-content h2 {
+  font-size: 2.5vw;
+  margin-bottom: 50px;
+}
+
+.banner-content p {
+  font-size: 1.2vw;
+  margin-bottom: 50px;
+}
+.signup {
+  width: 110px;
+  background: #fff;
+  transition: width 2s;
+}
+.signup:hover{
+  width: 300px;
+}
+
+.services {
+  background-color: #ccc;
+  border-bottom: 1px solid #333;
+  border-top: 1px solid #333;
+  padding: 100px 0;
+  text-align: center;
+}
+.services-header {
+  margin-bottom: 50px;
+}
+.services-header h2{
+  font-size: 40px; color: #444;margin-bottom: 25px;
+}
+.services-header p{
+  font-size: 20px;color: #868686;
+}
+.color-blue{
+  background-color: aqua;color: white;
+}
+.color-red{
+  background-color: lightcoral;color: white;
+}
+.color-green{
+  background-color: greenyellow;color: white;
+}
+.big{
+  font-size: 40px;padding: 40px 40px;
+}
+.rounded{
+  border-radius: 50%;
+}
+.box{
+  background-color: white;
+  border: solid 1px #bbb;
+  padding: 70px 30px;
+  width: calc(calc(100% / 3) - 82px);
+  margin: 0 10px;
+}
+.services-content>*{float: left;}
+.services-content:after,
+.services-content:before{
+  content: '';
+  display: block;
+  clear: both;
+}
+.box h4 {
+  color: #878787;
+  font-size: 25px;
+  margin: 60px 0 30px 0;
+}
+
+.box p {
+  line-height: 25px;
+}
+
+.services-content {
+  width:85%; margin:0 auto;
+}
+
+@media only screen and (max-width: 835px)
+{
+  .box {
+    width: 100%;
+    padding: 60px 0;
+    margin: 10px 0;
+  }
+}
+
+/* ------------------------  about  ------------------- */
+
+.about {   text-align: center; padding: 100px 0; }
+.about-header h2 {
+  font-size: 42px; color:#474747; margin-bottom: 12px; }
+.about-header p { font-size: 22px; color: #868686}  
+
+.about-content {
+  border-bottom: 1px solid rgba(144,144,144,0.25);
+  border-top: 1px solid rgba(144,144,144,0.25);
+  margin: 60px auto; 
+  width:90%;
+  padding-top: 60px;
+}
+
+.about-content>* {float: left;}
+.about-content:after, 
+.about-content:before {  content:''; display: block; clear:both; }
+
+.profile {width: 25%; border-bottom: 60px;}
+.profile img {float: left; border-radius: 50%;}
+.profile h4 { margin-top: 20px;}
+.profile p {line-height: 25px;}
+.about-footer p {line-height: 25px; font-size: 15px; margin-bottom: 40px;}
+.about-footer { width: 65%; margin: 0 auto;}
+
+.contact { background-color: #3cadd4; color: #fff; padding: 100px 0;
+margin-top: 20px;}
+.contact-header {text-align: center;}
+.contact-header h2 {font-size: 40px; margin-bottom: 20px;}
+.contact-header p { font-size: 20px;}
+
+.contact-content {text-align: center;}
+input[type="text"],input[type='email'] {
+  background-color: #fff; 
+  color: none; border-radius: 4px; padding:15px 11px; width: 25%;
+}
